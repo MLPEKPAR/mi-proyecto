@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="C:\Users\rosem\OneDrive\Bureau\CODING\project folder\WEEK5\SRC\styles.css" />
+    <title>My weather application</title>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <div class="app-window">
+      <header>
+        <form id="search-form">
+          <input type="text" id="input-city" placeholder="Enter a city.." required />
+          <input type="submit" id="search-button" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div class="current-weather">
+          <div>
+            <p>
+              <h1>Paris</h1>
+              <DIV class="current-conditions"><span id="day-time">Saturday 15:32</span>, moderate rain <br />
+              Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+            </DIV>
+           </p>
+          </div>
+          <div class="today-temperature">
+            <span class="sol">☀️</span>
+             <span class="Grados" id="temp-grados">24</span> 
+             <span class="Celsius">℃</span>
+            </div>
+        </div>
+      </main>
+      <footer>
+        <p>
+          This project was coded by
+          <a href="#" target="_blank">Maria Luisa Rodriguez</a> and is
+          <a href="#" target="_blank"> on GitHub</a> and
+          <a href="#" target="_blank">hosted on Netlify</a>
+        </p>
+      </footer>
+    </div>
+<script src="C:\Users\rosem\OneDrive\Bureau\CODING\project folder\WEEK5\SRC\HWWEEK5.js"></script>
+  </body>
+</html>
+
